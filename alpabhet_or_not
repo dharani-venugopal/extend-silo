@@ -1,0 +1,14 @@
+import java.util.*;
+public class alphabet {
+	public static void main(String args[]){
+		Scanner c=new Scanner(System.in);
+		char alpha=c.next().charAt(0);
+		if((alpha>='a'&&alpha<='z')||(alpha>='A'&&alpha<='Z')){
+			System.out.println("The given character is alphabet");
+		}
+		else{
+			System.out.println(" The given character is not alphabet");
+		}
+	}
+
+}
