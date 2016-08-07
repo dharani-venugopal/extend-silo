@@ -8,7 +8,7 @@ public static void main(String[] args) {
 	int deleteDigit=obj.nextInt();
 	int i=0;
 	int value;
-	int[] numArray=new int[10];
+	int[] numArray=new int[100];
 	while(number!=0){
 		int temp=number%10;
 		numArray[i]=temp;
